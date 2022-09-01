@@ -11,7 +11,7 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="index.html">ホーム</a>
+            <a class="nav-link" href="http://mysite.local/">ホーム</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="about.html">About</a>
