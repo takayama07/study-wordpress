@@ -10,3 +10,6 @@ function get_eyecatch_with_default() {
         }
     return $img;
 }
+
+/*表示しているページのタイトルを取得する*/
+<?php wp_title(); ?>
