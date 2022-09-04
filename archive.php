@@ -21,7 +21,18 @@
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="site-heading">
+              <!-- カテゴリーページとタグページを分ける -->
+            <?php if (is_category()): ?>
             <h1>Category</h1>
+              <!-- 作成者のページ表示 -->
+            <?php elseif (is_author()): ?>
+              <h1>Author</h1>
+              <!-- 日付別アーカイブページの作成 -->
+            <?php elseif(is_date()): ?>
+              <h1>Date</h1>
+            <?php else: ?>
+            <h1>Tag</h1>
+            <?php endif; ?>
             <span class="subheading"><?php wp_title(''); ?></span>
           </div>
         </div>
