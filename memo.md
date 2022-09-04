@@ -13,3 +13,14 @@ function get_eyecatch_with_default() {
 
 /*表示しているページのタイトルを取得する*/
 <?php wp_title(); ?>
+
+
+/*カテゴリーページ*/
+<?php if( is_category()) : ?>
+<?php else : ?>
+<?php endif; ?>
+
+/*タグページ*/
+<?php if( is_tag()) : ?>
+<?php else : ?>
+<?php endif; ?>
